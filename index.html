@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<!--
+	Phase Shift by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Concursos Ramjets - JELOZ</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+
+		<script src="js/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-animate.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/OAuth/oauth.js"></script>
+		<script src="js/loading-bar.js"></script>
+		<script src="js/App/CFacebook.js"></script>
+		<script src="js/ngDialog.js"></script>
+		
+		<link rel="stylesheet" href="css/loading-bar.css" />
+		<link rel="stylesheet" href="css/ngDialog.css">
+		<link rel="stylesheet" href="css/ngDialog-theme-default.css">
+		<link rel="stylesheet" href="css/ngDialog-theme-plain.css">
+	    <link rel="stylesheet" href="css/ngDialog-custom-width.css">
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body ng-app="FacebookConnetc" >
+
+		<!-- Wrapper -->
+			<div class="wrapper style1">
+
+				<!-- Header -->
+					<div id="header" class="skel-panels-fixed" >
+						<div id="logo">
+							<figure>
+								<img src="images/logoJZ.png" alt="Logo" style="width:10%;">
+							</figure>
+							<!--<span class="tag">by OJDevelopers</span>-->
+						</div>
+						<div class="nav1" ng-controller="AccesInfo">
+							<figure><img src="images/usuario.png" ng-src="{{UsuarioFacebook.image}}" alt="usuario" style="width:100%;"></figure>
+							<h3>{{UsuarioFacebook.name}}</h3>
+						</div>
+					</div>
+
+				<!-- Banner -->
+					<div id="banner" class="container">
+						<section>
+							<p>Participa en el concurso de lanzamiento del nuevo sencillo de <strong>JELOZ</strong>. Participa por fantasticos premios exclusivos de este gran artista.</p>
+							<a href="#" class="button medium">Read More</a>
+						</section>
+					</div>
+
+				<!-- Extra -->
+					<div id="extra">
+						<div class="container">
+							<div class="row no-collapse-1">
+								<section data-css="hola" class="4u" ng-show="concursantes"> 
+									<div class="ContentParticipantes">
+										<a href="#" class="image featured">
+											<img src="images/pic01.jpg" alt="">
+										</a>
+										<div class="box">
+											<p>Nombre del Participante</p>
+											<p>Votos: 57</p>
+											<a href="#" class="button">Votar</a>
+										</div>
+									</div>
+								</section>
+								<section data-css="hola" class="4u">
+									<div class="ContentParticipantes">
+										<a href="#" class="image featured">
+											<img src="images/pic02.jpg" alt="">
+										</a>
+										<div class="box">
+											<p>Nombre del Participante</p>
+											<p>Votos: 57</p>
+											<a href="#" class="button">Votar</a>
+										</div>
+									</div>
+								</section>
+								<section data-css="hola" class="4u">
+									<div class="ContentParticipantes">
+										<a href="#" class="image featured">
+											<img src="images/pic03.jpg" alt="">
+										</a>
+										<div class="box">
+											<p>Nombre del Participante</p>
+											<p>Votos: 57</p>
+											<a href="#" class="button">Votar</a>
+										</div>
+									</div>
+								</section>
+							<!--</div>-->
+							<!--<div class="row no-collapse-1">-->
+								<section data-css="hola" class="4u">
+									<div class="ContentParticipantes">
+										<a href="#" class="image featured">
+											<img src="images/pic01.jpg" alt="">
+										</a>
+										<div class="box">
+											<p>Nombre del Participante</p>
+											<p>Votos: 57</p>
+											<a href="#" class="button">Votar</a>
+										</div>
+									</div>
+								</section>
+								<section data-css="hola" class="4u">
+									<div class="ContentParticipantes">
+										<a href="#" class="image featured">
+											<img src="images/pic02.jpg" alt="">
+										</a>
+										<div class="box">
+											<p>Nombre del Participante</p>
+											<p>Votos: 57</p>
+											<a href="#" class="button">Votar</a>
+										</div>
+									</div>
+								</section>
+								<section data-css="hola" class="4u">
+									<div class="ContentParticipantes">
+										<a href="#" class="image featured">
+											<img src="images/pic03.jpg" alt="">
+										</a>
+										<div class="box">
+											<p>Nombre del Participante</p>
+											<p>Votos: 57</p>
+											<a href="#" class="button">Votar</a>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+			</div>
+
+	<!-- Footer -->
+		<div id="footer" class="wrapper style2">
+			<div class="container">
+				<section>
+					<header class="major">
+						<h2>Mauris vulputate dolor</h2>
+						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+					</header>
+					<form method="post" action="#">
+						<div class="row half">
+							<div class="12u">
+								<input class="text" type="text" name="name" id="name" placeholder="Name" />
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<input class="text" type="text" name="email" id="email" placeholder="Email" />
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<textarea name="message" id="message" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<ul class="actions">
+									<li>
+										<input type="submit" value="Send Message" class="button alt" />
+									</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				<div class="copyright">
+					<p>Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)</p>
+					<ul class="icons">
+						<li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+						<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/ng-template" id="ComfirmLogin">
+			<div class="ngdialog-message">
+				<h3>Quieres Participar?</h3>
+				<p ng-show="provider">Hemos detectado que vienes desde <code>{{provider}}</code> y que no estas registrado con esta red social para participar en nuestro concurso.</p>
+				<p>Si ya estas registrado con <code>{{RedRegis}}</code> inicia sesion para obtener tu perfil.
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="ClickLogIn()"><code>{{NombreBoton}}</code></button>
+				<p>Si no estas registrado y quieres concursar, solo da clic en Registráme!</p>
+			</div>
+			<div class="ngdialog-buttons">
+				<button type="button" class="ngdialog-button ngdialog-button-secondary"
+					ng-dialog="secondDialogId"
+					ng-dialog-class="ngdialog-theme-default"
+					ng-dialog-controller="SecondModalCtrl"
+					ng-dialog-close-previous>Ir a Votar</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="ClickGuardar()">Registráme!</button>
+			</div>
+		</script>
+	</body>
+</html>
