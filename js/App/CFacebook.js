@@ -377,7 +377,7 @@ angular.module('FacebookConnetc', ['chieffancypants.loadingBar', 'ngAnimate','ng
 					}
 					else
 					{
-						$scope.GuardarParticipante(data,false,Advertising,provider,localStorage["IdFacebook"]);
+						$scope.GuardarParticipante(data[0],false,Advertising,provider,localStorage["IdFacebook"]);
 					}
 				})
 				.error(function(data, status, headers, config) {
