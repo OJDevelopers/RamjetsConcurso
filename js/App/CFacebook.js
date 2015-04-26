@@ -209,6 +209,8 @@ angular.module('FacebookConnetc', ['chieffancypants.loadingBar', 'ngAnimate','ng
 })
 .controller('ParticipantsActions', function ($scope, $http,$timeout,cfpLoadingBar){
 	var IdUsuario = "";
+	$scope.MostrarParticipantes = false;
+	$scope.Participantes = [];
 
 
 })
